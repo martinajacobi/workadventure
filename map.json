@@ -88,19 +88,9 @@
          "opacity":1,
          "properties":[
                 {
-                 "name":"jitsiRoom",
+                 "name":"openTab",
                  "type":"string",
                  "value":"https:\/\/tu-ilmenau.webex.com\/meet\/mira.rochyadi-reetz\/"
-                }, 
-                {
-                 "name":"jitsiTrigger",
-                 "type":"string",
-                 "value":"onaction"
-                }, 
-                {
-                 "name":"jitsiTriggerMessage",
-                 "type":"string",
-                 "value":"Press SPACE \/ touch to enter the virtual meeting"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -109,6 +99,7 @@
          "y":0
         }, 
         {
+         "class":"area",
          "data":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
             0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
             0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
@@ -149,19 +140,9 @@
          "opacity":1,
          "properties":[
                 {
-                 "name":"jitsiRoom",
+                 "name":"bbbMeeting",
                  "type":"string",
                  "value":"https:\/\/meeting.uni-weimar.de\/b\/mar-k25-dsa-ika"
-                }, 
-                {
-                 "name":"jitsiTrigger",
-                 "type":"string",
-                 "value":"onaction"
-                }, 
-                {
-                 "name":"jitsiTriggerMessage",
-                 "type":"string",
-                 "value":"Press SPACE \/ touch to enter the virtual meeting"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -271,7 +252,7 @@
          "opacity":1,
          "properties":[
                 {
-                 "name":"openWebsite",
+                 "name":"openTab",
                  "type":"string",
                  "value":"https:\/\/www.tu-ilmenau.de\/universitaet\/fakultaeten\/fakultaet-wirtschaftswissenschaften-und-medien\/profil\/institute-und-fachgebiete\/fachgebiet-empirische-medienforschung-und-politische-kommunikation\/"
                 }],
@@ -373,7 +354,7 @@
          "opacity":1,
          "properties":[
                 {
-                 "name":"openWebsite",
+                 "name":"openTab",
                  "type":"string",
                  "value":"https:\/\/cloud.uni-weimar.de\/s\/gY7diCXNPzdLPaY\/"
                 }],
@@ -475,9 +456,9 @@
          "opacity":1,
          "properties":[
                 {
-                 "name":"openWebsite",
+                 "name":"openTab",
                  "type":"string",
-                 "value":"https:\/\/www.uni-weimar.de\/de\/architektur-und-urbanistik\/professuren\/staedtebau-1\/aktuelles\/"
+                 "value":"https:\/\/www.uni-weimar.de\/staedtebau\/"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -580,7 +561,7 @@
                 {
                  "name":"openWebsite",
                  "type":"string",
-                 "value":"https:\/\/www.youtube.com\/watch?v=Y9ubBWf5w20&t=2s&ab_channel=WorkAdventure\/"
+                 "value":"https:\/\/www.youtube.com\/embed\/Y9ubBWf5w20"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -775,7 +756,7 @@
          "name":"Floor layer",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":30,
          "x":0,
          "y":0
@@ -980,8 +961,8 @@
             0, 0, 2839, 2840, 2841, 0, 0, 0, 0, 148, 148, 2839, 2840, 2841, 148, 2842, 0, 0, 0, 0, 0, 0, 0, 0, 0, 148, 0, 0, 0, 0,
             0, 0, 2852, 2853, 2854, 0, 0, 0, 0, 148, 148, 2852, 2853, 2854, 2763, 2855, 0, 0, 0, 148, 148, 0, 0, 0, 0, 148, 0, 0, 0, 0,
             0, 0, 2865, 2866, 2867, 0, 0, 0, 0, 148, 148, 2865, 2866, 2867, 2763, 2868, 0, 0, 0, 0, 148, 148, 148, 148, 148, 148, 0, 0, 0, 0,
-            0, 0, 0, 0, 0, 0, 0, 0, 0, 148, 148, 148, 148, 148, 148, 0, 0, 0, 0, 0, 0, 0, 0, 148, 148, 0, 0, 0, 0, 0,
-            0, 0, 0, 0, 0, 0, 2839, 2840, 2841, 148, 148, 148, 148, 148, 148, 0, 0, 0, 0, 2839, 2840, 2841, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 148, 148, 148, 148, 148, 148, 0, 0, 0, 0, 2839, 2840, 2841, 0, 148, 148, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 2839, 2840, 2841, 148, 148, 148, 148, 148, 148, 0, 0, 0, 0, 2852, 2853, 2854, 0, 0, 0, 0, 0, 0, 0, 0,
             0, 0, 0, 0, 0, 0, 2852, 2853, 2854, 2865, 148, 148, 148, 148, 148, 0, 0, 0, 0, 2852, 2853, 2854, 0, 0, 0, 0, 0, 0, 0, 0,
             0, 0, 0, 0, 0, 0, 2865, 2866, 2867, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2865, 2866, 2867, 0, 0, 0, 0, 0, 0, 0, 0,
             0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
