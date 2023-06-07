@@ -1184,9 +1184,9 @@
                      "wrap":true
                     },
                  "visible":true,
-                 "width":149.878986723638,
-                 "x":229.712970305827,
-                 "y":713.078055852281
+                 "width":75.878986723638,
+                 "x":384.712970305827,
+                 "y":740.078055852281
                 }, 
                 {
                  "class":"",
@@ -1199,7 +1199,7 @@
                      "fontfamily":"Arial",
                      "halign":"center",
                      "pixelsize":12,
-                     "text":"How does \nWork Adventure \nworks?",
+                     "text":"How does \nWork Adventure \nwork?",
                      "wrap":true
                     },
                  "visible":true,
